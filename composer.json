@@ -1,0 +1,23 @@
+{
+    "name": "robwasripped/printerval",
+    "description": "Pretty print date intervals",
+    "authors": [
+        {
+            "name": "Rob Treacy",
+            "email": "email@roberttreacy.com"
+        }
+    ],
+    "license": "GPL-2.0",
+    "autoload": {
+        "psr-4": {
+            "robwasripped\\printerval\\": "src/",
+            "robwasripped\\printerval\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^5.5.9 || ^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
